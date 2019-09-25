@@ -14,9 +14,12 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    "import/no-named-as-default": 0,
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
-    "camelcase" : "off"
+    "camelcase" : "off",
+    
+    
   },
 };
